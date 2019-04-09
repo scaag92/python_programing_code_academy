@@ -54,3 +54,30 @@ runtime_int = 192
 # Define the rating_out_of_10 float variable below: 
 
 rating_out_of_10_float = 1.55
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7th Lesson: Numbers
+
+# Define the release and runtime integer variables below:
+
+relase_year = 2001 
+runtime = 2
+
+
+# Define the rating_out_of_10 float variable below: 
+
+rating_out_of_10 = 1.5
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8th Lesson: Calculations
+
+int_a = 5
+int_b = 10
+print( int_a / int_b )
+
+print (25 * 68 + 13 / 28)
+
+
+
