@@ -79,5 +79,142 @@ print( int_a / int_b )
 
 print (25 * 68 + 13 / 28)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9th Lesson: Changing Numbers
+
+quilt_width = 8 
+quilt_length = 12
+
+print ( quilt_width * quilt_length )
+
+quilt_length = 8
+
+print ( quilt_width * quilt_length )
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10th Lesson: Exponents
+
+# Calculation of squares for:
+# 6x6 quilt
+print (6 ** 2)
+# 7x7 quilt
+print (7 ** 2)
+# 8x8 quilt
+print (8 ** 2)
+# How many squares for 6 people to have 6 quilts each that are 6x6?
+print (6 ** 4 ) 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11th Lesson: Modulo
+
+# Prints 4 because 29 / 5 is 5 with a remainder of 4
+print(29 % 5)
+
+# Prints 2 because 32 / 3 is 10 with a remainder of 2
+print(32 % 3)
+
+# Modulo by 2 returns 0 for even numbers and 1 for odd numbers
+# Prints 0
+print(44 % 2)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12th Lesson: Concatenation
+
+string1 = "The wind, "
+string2 = "which had hitherto carried us along with amazing rapidity, "
+string3 = "sank at sunset to a light breeze; "
+string4 = "the soft air just ruffled the water and "
+string5 = "caused a pleasant motion among the trees as we approached the shore, "
+string6 = "from which it wafted the most delightful scent of flowers and hay."
+
+# Define message below:
+message = string1 + string2 + string3 + string4 + string5 + string6
+
+#print(message)
+
+print (message)
+
+++++++++
+
+full_text = greeting_text + " " + question_text
+
+# Prints "Hey there! How are you doing?"
+print(full_text)
+
+++++++++
+
+birthday_string = "I am "
+age = 10
+birthday_string_2 = " years old today!"
+
+# Concatenating an integer with strings is possible if we turn the integer into a string first
+full_birthday_string = birthday_string + str(age) + birthday_string_2
+
+# Prints "I am 10 years old today!"
+print(full_birthday_string)
+
+# If we just want to print an integer 
+# we can pass a variable as an argument to 
+# print() regardless of whether 
+# it is a string.
+
+# This also prints "I am 10 years old today!"
+print(birthday_string, age, birthday_string_2)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13th Lesson: Plus Equals
+
+total_price = 0
+
+new_sneakers = 50.00
+
+total_price += new_sneakers
+
+nice_sweater = 39.00
+total_price += nice_sweater
+
+fun_books = 20.00
+total_price += fun_books
+
+# Update total_price here:
+
+print("The total price is", total_price)
+
++++++++++
+
+hike_caption = "What an amazing time to walk through nature!"
+
+# Almost forgot the hashtags!
+hike_caption += " #nofilter"
+hike_caption += " #blessed"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14th Lesson: Multi-line Strings
+
+# Assign the string here
+to_you = '''
+Stranger, if you passing meet me and desire to speak to me, why
+  should you not speak to me?
+And why should I not speak to you?
+'''
+print(to_you)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15th Lesson: Review
+
+my_age = 26
+half_my_age = my_age / 2
+greeting = "Hello Every body, my name is "
+name = "Cristian, "
+greeting_with_name = greeting + name + "I have " + str(my_age)
+print (greeting_with_name)
+
 
 
