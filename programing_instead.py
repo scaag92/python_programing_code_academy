@@ -1,18 +1,18 @@
 Programing instead
 
-1st Lesson:
+Unit 1 - 1st Lesson:
 my_name = "Cristian"
 print("Hello and welcome " + my_name + "!")
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2nd Lesson., How to make comments:
+Unit 1 - 2nd Lesson., How to make comments:
 # Buena los perros
 persnickety_count = 0
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3rd - 4th Lesson, Print
+Unit 1 - 3rd - 4th Lesson, Print
 
 print ("Cristian")
 
@@ -20,7 +20,7 @@ print ('Cristian')
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-5th Lesson: Variables =
+Unit 1 - 5th Lesson: Variables =
 
 # We've defined the variable "meal" here to the name of the food we ate for breakfast!
 meal = "Caldo de Costilla"
@@ -44,7 +44,7 @@ print(meal)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-6th Lesson: Int & Float Variables 
+Unit 1 - 6th Lesson: Int & Float Variables 
 
 # Define the release and runtime integer variables below:
 
@@ -57,7 +57,7 @@ rating_out_of_10_float = 1.55
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-7th Lesson: Numbers
+Unit 1 - 7th Lesson: Numbers
 
 # Define the release and runtime integer variables below:
 
@@ -71,7 +71,7 @@ rating_out_of_10 = 1.5
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-8th Lesson: Calculations
+Unit 1 - 8th Lesson: Calculations
 
 int_a = 5
 int_b = 10
@@ -81,7 +81,7 @@ print (25 * 68 + 13 / 28)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-9th Lesson: Changing Numbers
+Unit 1 - 9th Lesson: Changing Numbers
 
 quilt_width = 8 
 quilt_length = 12
@@ -94,7 +94,7 @@ print ( quilt_width * quilt_length )
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-10th Lesson: Exponents
+Unit 1 - 10th Lesson: Exponents
 
 # Calculation of squares for:
 # 6x6 quilt
@@ -108,7 +108,7 @@ print (6 ** 4 )
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-11th Lesson: Modulo
+Unit 1 - 11th Lesson: Modulo
 
 # Prints 4 because 29 / 5 is 5 with a remainder of 4
 print(29 % 5)
@@ -122,7 +122,7 @@ print(44 % 2)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-12th Lesson: Concatenation
+Unit 1 - 12th Lesson: Concatenation
 
 string1 = "The wind, "
 string2 = "which had hitherto carried us along with amazing rapidity, "
@@ -167,7 +167,7 @@ print(birthday_string, age, birthday_string_2)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-13th Lesson: Plus Equals
+Unit 1 - 13th Lesson: Plus Equals
 
 total_price = 0
 
@@ -195,7 +195,7 @@ hike_caption += " #blessed"
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-14th Lesson: Multi-line Strings
+Unit 1 - 14th Lesson: Multi-line Strings
 
 # Assign the string here
 to_you = '''
@@ -207,7 +207,7 @@ print(to_you)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-15th Lesson: Review
+Unit 1 - 15th Lesson: Review
 
 my_age = 26
 half_my_age = my_age / 2
@@ -215,6 +215,46 @@ greeting = "Hello Every body, my name is "
 name = "Cristian, "
 greeting_with_name = greeting + name + "I have " + str(my_age)
 print (greeting_with_name)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 1 - Script: Furniture Store
+
+lovely_loveseat_description = '''
+Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white. 
+'''
+lovely_loveseat_price = 254.00
+
+stylish_settee_description  = '''
+Stylish Settee. Faux leather on birch. 29.50 inches high x 54.75 inches wide x 28 inches deep. Black.
+'''
+stylish_settee_price = 180.50
+
+luxurious_lamp_description = '''
+Luxurious Lamp. Glass and iron. 36 inches tall. Brown with cream shade.
+'''
+luxurious_lamp_price = 52.15
+
+sales_tax = .088
+
+customer_one_total = 0
+customer_one_itemization = ""
+
+customer_one_total += lovely_loveseat_price
+customer_one_itemization += lovely_loveseat_description
+
+customer_one_total += luxurious_lamp_price
+customer_one_itemization += luxurious_lamp_description
+
+customer_one_tax = customer_one_total * sales_tax
+customer_one_total += customer_one_tax 
+
+print ("Customer One Items:")
+print (customer_one_itemization)
+print ("Customer One Total:")
+print (customer_one_total)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
