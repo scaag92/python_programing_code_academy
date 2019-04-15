@@ -1,4 +1,5 @@
-Programing instead
+Programing in Python instead
+#Codeacademy
 
 Unit 1 - 1st Lesson:
 my_name = "Cristian"
@@ -256,7 +257,23 @@ print (customer_one_total)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 2dn - Lesson 3rd Functions
+Uni 2nd -  Lesson 2 - Functions
+ 
+def sing_song():
+  print("You may say I'm a dreamer")
+  print("But I'm not the only one")
+  print("I hope some day you'll join us")
+  print("And the world will be as one")
+  
+#call sing_song() below:
+
+
+sing_song()
+sing_song()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2dn - Lesson 3rd - Functions
 
 def loading_screen():
   print("This page is loading...")
@@ -265,7 +282,7 @@ def loading_screen():
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 2nd - Lesson 4th Whitespaces
+Unit 2nd - Lesson 4th - Whitespaces
 
 def about_this_computer():
   print("This computer is running on version Everest Puma")
@@ -275,7 +292,7 @@ about_this_computer()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 2nd - Lesson 5th Parameters
+Unit 2nd - Lesson 5th - Parameters
 
 def mult_two_add_three(number):
   print(number*2 + 3)
@@ -284,5 +301,127 @@ def mult_two_add_three(number):
 mult_two_add_three(10)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2nd - Lesson 6th - Multiple Parameters
+
+def mult_x_add_y(number, x, y):
+  print(number*x + y)
+  
+mult_x_add_y(5, 2, 3)
+mult_x_add_y(1, 3, 1)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2nd - Lesson 7th - Keyword Arguments
+
+def greet_customer(grocery_store, special_item):
+    print("Welcome to "+ grocery_store + ".")
+    print("Our special is " + special_item + ".")
+    print("Have fun shopping!")
+
+
+# Define create_spreadsheet():
+def create_spreadsheet(title, row_count):
+  print("Creating a spreadsheet called " + title + " with " + str(row_count) + " rows")
+	
+# Call create_spreadsheet() below with the required arguments:
+create_spreadsheet("Aplications", 10)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2nd - Lesson 8th - Returns
+
+def calculate_age(current_year, birth_year):
+  age = current_year - birth_year
+  return age
+  
+my_age = calculate_age(2049, 1993)
+print(my_age)
+
+dads_age = calculate_age(2049, 1953)
+print(dads_age)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2nd - Lesson 9th - Multiple Returns
+
+def get_boundaries(target, margin):
+  low_limit = target - margin
+  high_limit = margin + target
+  return low_limit, high_limit
+
+low, high = get_boundaries(100, 20)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2nd - Lesson 10th - Scope
+
+current_year = 2048
+
+def calculate_age(birth_year):
+  age = current_year - birth_year
+  return "You're age is: " + str(age) + "."
+
+age = calculate_age(1970)
+print(age)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2nd - Lesson 11th - Scope
+
+def repeat_stuff(stuff, num_repeats=10):
+  return stuff*num_repeats
+
+lyrics = repeat_stuff("Row ", 2) + "Your Boat. "
+song = repeat_stuff(lyrics)
+
+print(song)
+
+
+
+train_mass = 22680
+train_acceleration = 10
+train_distance = 100
+
+bomb_mass = 1
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 2 - Script: Physics Teacher
+
+#Function to convert from Fahrenheit to Celsius
+def f_to_c(f_temp):
+  c_temp	= (f_temp - 32) * 5/9
+  return c_temp
+f100_in_celsius = f_to_c(100)
+
+#Function to convert from Celsius to Fahrenheit
+def c_to_f(c_temp):
+  f_temp = c_temp * 9/5 + 32
+  return f_temp
+c0_in_fahrenheit = c_to_f(0)
+
+#Function to get force from mass and acceleeration
+def get_force(mass,acceleration):
+	mass = mass * acceleration
+  return mass 
+train_force = get_force(train_mass,train_acceleration)
+print("The GE train supplies" + train_force + "Newtons of force.")
+
+#Function to get energy from mass and constant speed of light
+def get_energy(mass,c = 3*10**8):
+  mass = mass * c
+	return mass
+bomb_energy= get_energy(bomb_mass)
+print("A 1kg bomb supplies" + bomb_energy + "Joules.")
+
+def get_work(mass, acceleration, distance):
+      force = get_force(mass, acceleration)
+      work = force * distance
+      return result
+train_work = get_work(train_mass, train_acceleration, train_distance)
+print("The GE train does" + train_work + "Joules of work over" + train_distance + "meters.".)
+
 
 

@@ -1,0 +1,9 @@
+number = 2
+
+def mult_two_add_three (number):
+	number += 3
+	print (number) 
+print (number)
+
+  
+  
