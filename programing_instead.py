@@ -590,5 +590,186 @@ statement_three = "No"
 # Cats are female dogs.
 statement_four = "Yes"
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 3rd - Relational Operators: Equals and Not Equals
+
+# Statement one:
+# (5 * 2) - 1 == 8 + 1
+statement_one = True
+
+#Statement two:
+# 13 - 6 != (3 * 2) + 1
+statement_two = False
+
+#Statement three:
+# 3 * (2 - 1) == 4 - 1
+statement_three = True
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 4th - Boolean Variables
+
+my_baby_bool = "true"
+print(type(my_baby_bool))
+my_baby_bool_two = True
+print(type(my_baby_bool_two))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 5th - If Statements
+
+def dave_check(user_name):
+  if user_name == "Dave":
+    return "Get off my computer Dave!"
+  if user_name != "Dave":
+    return "I know it is you Dave! Go away!"
+  
+# Enter a user name here, make sure to make it a string
+user_name = "angela_catlady_87"
+
+print(dave_check(user_name))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 6th - Relational Operators II
+
+def greater_than(x, y):
+	if x > y:
+		return x
+	if y > x:
+		return y
+	if y == x:
+		return	"These numbers are the same"
+
+print(greater_than(3, 3))
+
+
+def graduation_reqs(credits):
+	if credits >= 120:
+		return "You have enough credits to graduate!"
+
+print(graduation_reqs(120))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 7th - Relational Operators II
+
+def greater_than(x, y):
+	if x > y:
+		return x
+	if y > x:
+		return y
+	if y == x:
+		return	"These numbers are the same"
+
+print(greater_than(3, 3))
+
+
+def graduation_reqs(credits):
+	if credits >= 120:
+		return "You have enough credits to graduate!"
+
+print(graduation_reqs(120))
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 8th - Boolean Operators: and
+
+
+statement_one = False
+
+statement_two = True
+
+def graduation_reqs(gpa, credits):
+  if (gpa >= 2.0) and (credits >= 120):
+    return "You meet the requirements to graduate!"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 8th - Boolean Operators: or
+
+statement_one = (2 - 1 > 3) or (-5 * 2 == -10)
+
+statement_two = (9 + 5 <= 15) or (7 != 4 + 3)
+
+def graduation_mailer(gpa, credits):
+  if (gpa >= 2.0) or (credits >= 120):
+  	return True
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 9th - Boolean Operators: not
+
+statement_one = not (4 + 5 <= 9)
+
+statement_two = not (8 * 2) != 20 - 4
+
+def graduation_reqs(gpa, credits):
+  if (gpa >= 2.0) and (credits >= 120):
+    return "You meet the requirements to graduate!"
+  if (gpa >= 2.0) and (not credits >= 120):
+    return "You do not have enough credits to graduate."
+  if (not gpa >= 2.0) and (credits >= 120):
+    return "Your GPA is not high enough to graduate."
+  if (not gpa >= 2.0) and (not credits >= 120):
+    return "You do not meet either requirement to graduate!"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 10th - Else Statements 
+
+def graduation_reqs(gpa, credits):
+  if (gpa >= 2.0) and (credits >= 120):
+    return "You meet the requirements to graduate!"
+  if (gpa >= 2.0) and not (credits >= 120):
+    return "You do not have enough credits to graduate."
+  if not (gpa >= 2.0) and (credits >= 120):
+    return "Your GPA is not high enough to graduate."
+  else:
+    return "You do not meet the GPA or the credit requirement for graduation."
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 11th - Else Statements 
+
+def grade_converter(gpa):
+  grade = "F"
+  
+  if gpa >= 4.0:
+    grade = "A"
+  elif gpa >= 3.0:
+    grade = "B"
+  elif gpa >= 2.0:
+    grade = "C"
+  elif gpa >= 1.0:
+    grade = "D"
+    
+  return grade
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 12th - Try and Except Statements 
+
+def raises_value_error():
+  try:
+  	raise ValueError
+  except ValueError:
+    print("You raised a ValueError!")
+
+raises_value_error()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 12th - Try and Except Statements 
+
+
+
+
+
+
+
+
 
 
