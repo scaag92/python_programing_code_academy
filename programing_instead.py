@@ -762,7 +762,31 @@ raises_value_error()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 12th - Try and Except Statements 
+Unit 3rd - Lesson 13th - Try and Review
+
+def applicant_selector(gpa, ps_score, ec_count):
+  if (gpa>=3.0) and (ps_score>=90) and (ec_count>=3):
+  	return "This applicant should be accepted."
+  elif (gpa>=3.0) and (ps_score>=90) and not (ec_count>=3):
+    return "This applicant should be given an in-person interview."
+  elif not(gpa>=3.0) or not (ps_score>=90) or not (ec_count>=3):
+    return "This applicant should be rejected."
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 13th - Try and Except Statements 
+
+
+def ground_shipping_cost(weight):
+	if (weight<=2):
+		cost = weight * 1.50 + 20
+	elif (weight>2) and (weight<=6):
+		cost = weight * 3.0 + 20
+	elif (weight>6) and (weight<=10):
+		cost = weight * 4.0 + 20	
+	elif (weight>10):
+		cost = weight * 4.75 + 20
+	return cost
 
 
 
@@ -770,6 +794,26 @@ Unit 3rd - Lesson 12th - Try and Except Statements
 
 
 
+	costb = g_shipping_flat_c(weight) + 105
+  print("Ground Shipping Premium: " + str(costb)) 
+	costc = drone_shipping(weight)
+  print("Drone Shipping: " + str(costc))
+
+  
+	if (costa<costb) and (costa<costc):
+    print("You're best opcion is:")
+    print("Ground Shipping Plus: " + str(costa))
+  elif (costb<costa) and (costb<costc):
+    print("You're best opcion is:")
+  	print("Ground Shipping Premium: " + str(costb)) 
+  elif (costc<costa) and (costc<costb):
+    print("You're best opcion is:")
+  	print("Drone Shipping: " + str(costc)) 
 
 
 
+
+
+
+    print("You're best price is:")
+    print("Ground Shipping Premium:\t" +str(costb))

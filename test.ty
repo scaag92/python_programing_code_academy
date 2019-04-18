@@ -26,6 +26,8 @@ def menu(argument):
 			break;	
 	}
 
+def cal()
+
 def main():
 	print("Please select the operation")
 	print("1. Sum")
