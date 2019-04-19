@@ -1,6 +1,19 @@
 Programing in Python instead
 #Codeacademy
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WIKI
+How to install pip on MacOS
+
+sudo easy_install pip
+
+Or in other cases
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Unit 1 - 1st Lesson:
 my_name = "Cristian"
 print("Hello and welcome " + my_name + "!")
@@ -774,8 +787,7 @@ def applicant_selector(gpa, ps_score, ec_count):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 13th - Try and Except Statements 
-
+Unit 3rd - Lesson 14th - Try and Except Statements 
 
 def ground_shipping_cost(weight):
 	if (weight<=2):
@@ -788,32 +800,82 @@ def ground_shipping_cost(weight):
 		cost = weight * 4.75 + 20
 	return cost
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 3rd - Lesson 14th - CODE CHALLENGE: CONTROL FLOW 
+
+IN FLOW
+
+# Write your in_range function here:
+def in_range(num, lower, upper):
+  if (num>=lower) and (num<=upper):
+    return True
+  else:
+    return False
+# Uncomment these function calls to test your in_range function:
+print(in_range(10, 10, 10))
+# should print True
+print(in_range(5, 10, 20))
+# should print False
+
+
+MOVIE REVIEW
+# Write your movie_review function here:
+def movie_review(rating):
+  if (rating<=5):
+    return "Avoid at all costs!"
+  elif (rating>5) and (rating<9):
+    return "This one was fun."
+  elif (rating>=9):
+    return "Outstanding!"
+# Uncomment these function calls to test your movie_review function:
+print(movie_review(9))
+# should print "Outstanding!"
+print(movie_review(4))
+# should print "Avoid at all costs!"
+print(movie_review(6))
+# should print "This one was fun."
+print(movie_review(8))
+
+
+TWICE AS LARGE
+# Write your twice_as_large function here:
+def twice_as_large(num1, num2):
+  if (num1 > num2 * 2):
+    return True
+  else:
+    return False
+# Uncomment these function calls to test your twice_as_large function:
+print(twice_as_large(10, 5))
+# should print False
+print(twice_as_large(11, 5))
+# should print True
+
+
+POWER
+# Write your large_power function here:
+def large_power(base, exponent):
+  if (base ** exponent > 5000):
+    return True
+  else:
+    return False
+# Uncomment these function calls to test your large_power function:
+print(large_power(2, 13))
+# should print True
+print(large_power(2, 12))
+# should print False
 
 
 
+# Write your divisible_by_ten function here:
+def divisible_by_ten(num):
+  if(num % 10 == 0):
+    return True
+  else:
+    return False
+# Uncomment these function calls to test your divisible_by_ten function:
+print(divisible_by_ten(20))
+# should print True
+print(divisible_by_ten(25))
+# should print False
 
-
-
-	costb = g_shipping_flat_c(weight) + 105
-  print("Ground Shipping Premium: " + str(costb)) 
-	costc = drone_shipping(weight)
-  print("Drone Shipping: " + str(costc))
-
-  
-	if (costa<costb) and (costa<costc):
-    print("You're best opcion is:")
-    print("Ground Shipping Plus: " + str(costa))
-  elif (costb<costa) and (costb<costc):
-    print("You're best opcion is:")
-  	print("Ground Shipping Premium: " + str(costb)) 
-  elif (costc<costa) and (costc<costb):
-    print("You're best opcion is:")
-  	print("Drone Shipping: " + str(costc)) 
-
-
-
-
-
-
-    print("You're best price is:")
-    print("Ground Shipping Premium:\t" +str(costb))
