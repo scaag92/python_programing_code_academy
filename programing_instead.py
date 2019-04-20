@@ -919,4 +919,56 @@ print(max_num(-5, -10, -10))
 print(max_num(2, 3, 3))
 # should print "It's a tie!"
 
+ALWAYS FALSE
+
+# Write your always_false function here:
+
+def always_false(num):
+    if (num >= 0):
+        return False
+    else:
+        return False
+# Uncomment these function calls to test your always_false function:
+print(always_false(0))
+# should print False
+print(always_false(-1))
+# should print False
+print(always_false(1))
+# should print False
+
+
+NOT EQUAL
+
+# Write your not_sum_to_ten function here:
+
+def not_sum_to_ten(num1, num2):
+    if (num1 + num2 != 10):
+        return True
+    else:
+        return False
+
+# Uncomment these function calls to test your not_sum_to_ten function:
+print(not_sum_to_ten(9, -1))
+# should print True
+print(not_sum_to_ten(9, 1))
+# should print False
+print(not_sum_to_ten(5,5))
+# should print False
+
+
+SAME NAME
+
+# Write your same_name function here:
+
+def same_name(your_name, my_name):
+    if (your_name == my_name):
+        return True
+    else:
+        return False
+
+# Uncomment these function calls to test your same_name function:
+print(same_name("Colby", "Colby"))
+# should print True
+print(same_name("Tina", "Amber"))
+# should print False
 
