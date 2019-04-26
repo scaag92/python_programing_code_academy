@@ -972,3 +972,44 @@ print(same_name("Colby", "Colby"))
 print(same_name("Tina", "Amber"))
 # should print False
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 1st - LENGTH OF A LIST
+
+list1 = range(2, 20, 3)
+list1_len = len(list1)
+print(list1_len)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 3rd - SELECTING LIST ELEMENTS I
+
+employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
+
+index4 = employees[4]
+
+print(len(employees))
+
+print(employees[2])
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 4rd - SELECTING LIST ELEMENTS II
+
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+
+print(len(shopping_list))
+last_element = shopping_list[-1]
+element5 = shopping_list[5]
+print(element5 + last_element)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Unit 4rd - Lesson 5th -  
+
+
+
+
+
+
+
+
