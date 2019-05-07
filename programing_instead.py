@@ -974,6 +974,7 @@ print(same_name("Tina", "Amber"))
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 Unit 4th - Lesson 1st - What is a list? 
 
 heights = [61, 70, 67, 64, 65]
@@ -1087,13 +1088,153 @@ Unit 4th - Lesson 10th - PYTHON GRADEBOOK
 
 
 
+=======
+Unit 4rd - Lesson 1st - LENGTH OF A LIST
+
+list1 = range(2, 20, 3)
+list1_len = len(list1)
+print(list1_len)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 3rd - SELECTING LIST ELEMENTS I
+
+employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
+
+index4 = employees[4]
+
+print(len(employees))
+
+print(employees[2])
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 4rd - SELECTING LIST ELEMENTS II
+
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+
+print(len(shopping_list))
+last_element = shopping_list[-1]
+element5 = shopping_list[5]
+print(element5 + last_element)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 5th - SLICING LISTS
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+beginning = suitcase[0:4]
+print(beginning)
+
+middle = suitcase[2:4]
+print(middle)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 6th - SLICING LISTS II
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+start = suitcase[:3]
+end = suitcase[-2:]
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 7th - COUNTING ELEMENTS IN A LIST
+
+votes = ['Jake', 'Jake', 'Laurie', 'Laurie', 'Laurie', 'Jake', 'Jake', 'Jake', 'Laurie', 'Cassie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie']
+
+jake_votes = votes.count('Jake')
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 8th - SORT LIST I
+
+### Exercise 1 & 2 ###
+addresses = ['221 B Baker St.', '42 Wallaby Way', '12 Grimmauld Place', '742 Evergreen Terrace', '1600 Pennsylvania Ave', '10 Downing St.']
+
+# Sort addresses here:
+
+### Exercise 3 ###
+names = ['Ron', 'Hermione', 'Harry', 'Albus', 'Sirius']
+names.sort()
+
+### Exercise 4 ###
+cities = ['London', 'Paris', 'Rome', 'Los Angeles', 'New York']
+
+sorted_cities = cities.sort()
+print(sorted_cities)
+addresses.sort()
+print(addresses)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 9th - SORT LIST II
+
+games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+games_sorted = sorted(games)
+print(games)
+print(games_sorted)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 9th - REVIEW
+
+inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
+inventory_len = len(inventory)
+first = inventory[0]
+last = inventory[-1]
+inventory_2_6 = inventory[2:6]
+first_3 = inventory[:3]
+twin_beds = inventory.count('twin bed')
+inventory.sort()
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 9th - LEN.S SLICE   
+
+
+
+toppings = ['pepperoni', 'pineapple', 'cheese', 'sausage', 'olives', 'mushrooms']
+prices = [2, 6, 1, 3, 2, 7, 2 ]
+num_pizzas = len(toppings)
+
+print("We sell " + str(num_pizzas) + " different kinds of pizza!")
+
+pizzas = list(zip(prices, toppings))
+print(pizzas)
+
+pizzas.sort()
+print(pizzas)
+
+cheapest_pizza = pizzas[0]
+
+priciest_pizza = pizzas[-1]
+
+print("I will have your" + str(priciest_pizza) + "pizza!")
+
+three_cheapest = pizzas[0:3]
+print(three_cheapest)
+
+num_two_dollar_slices = prices.count(2)
+print(num_two_dollar_slices)
+>>>>>>> ee368c948341f61500e24efaea2575b3a2993423
 
 
 
 
 
+<<<<<<< HEAD
 
 
+=======
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 5th - Lesson 12th - LEN.S SLICE  
+
+num_two_dollar_slices = 
+>>>>>>> ee368c948341f61500e24efaea2575b3a2993423
 
 
 
