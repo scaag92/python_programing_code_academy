@@ -1219,22 +1219,79 @@ print(three_cheapest)
 
 num_two_dollar_slices = prices.count(2)
 print(num_two_dollar_slices)
->>>>>>> ee368c948341f61500e24efaea2575b3a2993423
 
-
-
-
-
-<<<<<<< HEAD
-
-
-=======
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 5th - Lesson 12th - LEN.S SLICE  
+Unit 4th - Lesson 12th - LEN.S SLICE  
 
 num_two_dollar_slices = 
->>>>>>> ee368c948341f61500e24efaea2575b3a2993423
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - 2nd DOUBLE INDEX
+
+#Write your function here
+def double_index(lst, index):
+  if index < len(lst):
+    lst[index] = lst[index] * 2
+  return lst
+
+#Uncomment the line below when your function is done
+print(double_index([3, 8, -10, 12], 2))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 3rd - REMOVE MIDDLE
+
+#Write your function here
+def remove_middle(lst, start, end):
+    list1 = lst[:start]
+    list2 = lst[end+1:]
+    list1 = list1 + list2
+    return list1
+
+#Uncomment the line below when your function is done
+print(remove_middle([4, 8, 15, 16, 23, 42], 1, 3))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 4th - MORE THAN N
+
+#Write your function here
+def more_than_n(lst, item, n):
+  if lst.count(item) > n:
+    return True
+  else: 
+    return False
+  
+
+#Uncomment the line below when your function is done
+print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 5th - MORE FREQUENT ITEM
+
+#Write your function here
+def more_frequent_item(lst, item1, item2):
+    if lst.count(item1) > lst.count(item2) or lst.count(item1) == lst.count(item2):
+        return item1
+    return item2
+
+#Uncomment the line below when your function is done
+print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 6th - MIDDLE ITEM
+
+
 
 
 
