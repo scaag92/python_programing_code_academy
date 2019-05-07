@@ -972,3 +972,131 @@ print(same_name("Colby", "Colby"))
 print(same_name("Tina", "Amber"))
 # should print False
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 1st - What is a list? 
+
+heights = [61, 70, 67, 64, 65]
+
+broken_heights = [65, 71, 59, 62]
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 2nd - LISTS II
+
+ints_and_strings = [1, 2, 3, 'four', 'five', "Hola"]
+sam_height = ['Sam', 67]
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 3rd -  LIST OF LISTS
+
+heights = [['Jenny', 61], ['Alexus', 70], ['Sam', 67], ['Grace', 64], ['Vik', 68]]
+ages = [['Aaron', 15], ['Dhruti', 16]]
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 4th -  ZIP
+
+names = ['Jenny', 'Alexus', 'Sam', 'Grace']
+dogs_names = ['Elphonse', 'Dr. Doggy DDS', 'Carter', 'Ralph']
+names_and_dogs_names = zip(names, dogs_names)
+list_of_names_and_dogs_names = list(names_and_dogs_names)
+print(list_of_names_and_dogs_names)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 5th -  EMPTY LIST
+
+my_empty_list = []
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 6th -  GROWING A LIST: APPEND
+
+orders = ['daisies', 'periwinkle']
+print(orders)
+orders.append('tulips')
+orders.append('roses')
+print(orders)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 7th -  GROWING A LIST: PLUS (+)
+
+orders = ['daisy', 'buttercup', 'snapdragon', 'gardenia', 'lily']
+
+# Create new orders here:
+
+new_orders = orders + ['lilac', 'iris']
+
+broken_prices = [5, 3, 4, 5, 4] + [4]
+
+print(new_orders)
+print(broken_prices)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 8th -  RANGE I
+
+list1 = range(9)
+range1 = range(8)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 9th - RANGE II
+
+list1 = range(5, 15, 3)
+list2 = range(0, 40, 5)
+print(list(list1))
+print(list(list2))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 10th - REVIEW
+
+first_names = ['Ainsley', 'Ben', 'Chani', 'Depak']
+age = []
+age.append(42)
+all_ages = age + [32, 41, 29]
+name_and_age = zip (first_names, all_ages)
+ids = range(0, 4)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 10th - PYTHON GRADEBOOK
+
+last_semester_gradebook = [("politics", 80), ("latin", 96), ("dance", 97), ("architecture", 65)]
+
+subjects = ["physics", "calculus", "poetry", "history"]
+grades = [98, 97, 85, 88]
+subjects.append('computer science')
+grades.append(100)
+gradebook = list(zip(subjects, grades))
+gradebook.append(('visual arts', 93))
+print(list(gradebook))
+full_gradebook=list(zip(gradebook, last_semester_gradebook))
+print(full_gradebook)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4th - Lesson 10th - PYTHON GRADEBOOK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
