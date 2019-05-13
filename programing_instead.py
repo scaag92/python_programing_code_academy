@@ -1291,7 +1291,119 @@ print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
 
 Unit 4rd - Lesson 6th - MIDDLE ITEM
 
+MY CODE
 
+#Write your function here
+def middle_element(lst):
+    count = len(lst)
+    print(count)
+    if count % 2 == 1:
+        middle = ((count-1)/2)
+        return lst[middle]
+    else:
+        middle = ((lst[(count/2)-1]) + (lst[count/2])) / 2
+        print(middle)
+#Uncomment the line below when your function is done
+print(middle_element([5, 2, -10, -4, 4]))
+middle_element([5, 2, -10, -4])
+
+
+
+CODE ACADEMY CODE
+#Write your function here
+def middle_element(lst):
+    if len(lst) % 2 == 0:
+        sum = lst[int(len(lst)/2)] + lst[int(len(lst)/2) - 1]
+        return sum / 2
+    else:
+        return lst[int(len(lst)/2)]
+
+#Uncomment the line below when your function is done
+print(middle_element([5, 2, -10, -4, 4]))
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 7th - MIDDLE ITEM
+
+#Write your function here
+
+def append_sum(lst):
+    el1 = lst[-1] + lst[-2]
+    lst.append(el1)
+    el1 = lst[-1] + lst[-2]
+    lst.append(el1)
+    el1 = lst[-1] + lst[-2]
+    lst.append(el1)
+    return(lst)
+
+#Uncomment the line below when your function is done
+print(append_sum([1, 1, 2]))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 8th - LARGER LIST
+
+#Write your function here
+def larger_list(lst1, lst2):
+    if len(lst1) >= len(lst2):
+        return lst1[-1]
+    else:
+        return lst2[-1]
+
+#Uncomment the line below when your function is done
+print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 9th - COMBINE SORT
+
+#Write your function here
+def combine_sort(lst1, lst2):
+    lst1 = lst1 + lst2
+    lst1.sort()
+    return lst1
+
+
+#Uncomment the line below when your function is done
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 10th - APPEND SIZE 
+
+#Write your function here
+def append_size(lst):
+    lst.append(len(lst))
+    return lst
+
+#Uncomment the line below when your function is done
+print(append_size([23, 42, 108]))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 4rd - Lesson 11th - APPEND SIZE 
+MY CODE
+
+def every_three_nums(start):
+    if start < 100:
+        list = range(start, 101, 3)
+        return(list)
+    else:
+        list = []
+        return  list
+
+print(every_three_nums(91))
+
+CODEACADEMY
+
+#Write your function here
+def every_three_nums(start):
+  return list(range(start, 101, 3))
+
+#Uncomment the line below when your function is done
+print(every_three_nums(91))
 
 
 
