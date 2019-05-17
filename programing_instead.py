@@ -1433,7 +1433,42 @@ for sport in sport_games:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 5th - Lesson 3rd - CONTINUE
+Unit 5th - Lesson 3rd - USING RANGE IN LOOPS
+
+promise = "I will not chew gum in class"
+for i in range(5):
+  print(promise)
+  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 4th -  INFINITE LOOPS
+
+students_period_A = ["Alex", "Briana", "Cheri", "Daniele"]
+students_period_B = ["Dora", "Minerva", "Alexa", "Obie"]
+
+for student in students_period_A:
+  #students_period_A.append(student)
+  students_period_B.append(student)
+  print(student)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 5th - BREAK
+
+dog_breeds_available_for_adoption = ['french_bulldog', 'dalmation', 'shihtzu', 'poodle', 'collie']
+dog_breed_I_want = 'dalmation'
+
+for breeds in dog_breeds_available_for_adoption:
+  print(breeds)
+  if breeds == dog_breed_I_want:
+    print("They have the dog I want!")
+    break
+  
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 6th - CONTINUE
 
 ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
 
@@ -1441,9 +1476,82 @@ for i in ages:
   if i < 21:
     continue
   print(i)
-  
 
- 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 7th - WHILE LOOPS
+
+all_students = ["Alex", "Briana", "Cheri", "Daniele", "Dora", "Minerva", "Alexa", "Obie", "Arius", "Loki"]
+students_in_poetry = []
+
+while len(students_in_poetry) < 6:
+  student = all_students.pop()
+  students_in_poetry.append(student)
+  
+print(students_in_poetry)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 8th - NESTED LOOPS
+
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
+scoops_sold = 0
+
+for location in sales_data:
+  for sold in location:
+    scoops_sold += sold
+  
+print(scoops_sold)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 9th - LIST COMPREHENSIONS
+
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+can_ride_coaster = []
+
+for height in heights:
+  if height > 161:
+    can_ride_coaster.append(height)
+print(can_ride_coaster)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 10th -  MORE LIST COMPREHENSIONS
+
+celsius = [0, 10, 15, 32, -5, 27, 3]
+fahrenheit = []
+
+for cels in celsius:
+  temperature_in_fahrenheit = cels * 9/5 + 32
+  fahrenheit.append(temperature_in_fahrenheit)
+  
+print(fahrenheit)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unit 6th - Lesson 11th - REVIEW
+
+single_digits = [0, 1, 2, 3, 4, 5, 6 ,7 ,8 ,9]
+squares = []
+cubes = []
+index = 0
+
+for digit in single_digits:
+  sqdigit = single_digits[index] **2
+  squares.append(sqdigit)
+  index += 1
+print(squares)
+
+index = 0
+
+for digit in single_digits:
+  cudigit = single_digits[index] **3
+  cubes.append(cudigit)
+  index += 1
+
+print(cubes)
 
 
 
