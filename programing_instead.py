@@ -586,7 +586,7 @@ Unit 3 - CODE CHALLENGE: PYTHON FUNCTIONS
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 2nd - Boolean Exzpressions
+Unit 3rd - Lesson 2nd - BOOLEAN EXZPRESSIONS
 
 # My dog is the cutest dog in the world.
 example_statement = "No"
@@ -605,7 +605,7 @@ statement_four = "Yes"
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 3rd - Relational Operators: Equals and Not Equals
+Unit 3rd - Lesson 3rd - RELATIONAL OPERATORS: EQUALS AND NOT EQUALS
 
 # Statement one:
 # (5 * 2) - 1 == 8 + 1
@@ -621,7 +621,7 @@ statement_three = True
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 4th - Boolean Variables
+Unit 3rd - Lesson 4th - BOOLEAN VARIABLES
 
 my_baby_bool = "true"
 print(type(my_baby_bool))
@@ -630,7 +630,7 @@ print(type(my_baby_bool_two))
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 5th - If Statements
+Unit 3rd - Lesson 5th - IF STATEMENTS
 
 def dave_check(user_name):
   if user_name == "Dave":
@@ -645,7 +645,7 @@ print(dave_check(user_name))
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 6th - Relational Operators II
+Unit 3rd - Lesson 6th - RELATIONAL OPERATORS II
 
 def greater_than(x, y):
 	if x > y:
@@ -666,7 +666,7 @@ print(graduation_reqs(120))
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 7th - Relational Operators II
+Unit 3rd - Lesson 7th - RELATIONAL OPERATORS II
 
 def greater_than(x, y):
 	if x > y:
@@ -688,7 +688,7 @@ print(graduation_reqs(120))
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 8th - Boolean Operators: and
+Unit 3rd - Lesson 8th - BOOLEAN OPERATORS: AND
 
 
 statement_one = False
@@ -701,7 +701,7 @@ def graduation_reqs(gpa, credits):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 8th - Boolean Operators: or
+Unit 3rd - Lesson 8th - BOOLEAN OPERATORS: OR
 
 statement_one = (2 - 1 > 3) or (-5 * 2 == -10)
 
@@ -713,7 +713,7 @@ def graduation_mailer(gpa, credits):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 9th - Boolean Operators: not
+Unit 3rd - Lesson 9th - BOOLEAN OPERATORS: NOT
 
 statement_one = not (4 + 5 <= 9)
 
@@ -731,7 +731,7 @@ def graduation_reqs(gpa, credits):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 10th - Else Statements 
+Unit 3rd - Lesson 10th - ELSE STATEMENTS 
 
 def graduation_reqs(gpa, credits):
   if (gpa >= 2.0) and (credits >= 120):
@@ -745,7 +745,7 @@ def graduation_reqs(gpa, credits):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 11th - Else Statements 
+Unit 3rd - Lesson 11th - ELSE STATEMENTS 
 
 def grade_converter(gpa):
   grade = "F"
@@ -763,7 +763,7 @@ def grade_converter(gpa):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 12th - Try and Except Statements 
+Unit 3rd - Lesson 12th - TRY AND EXCEPT STATEMENTS 
 
 def raises_value_error():
   try:
@@ -775,7 +775,7 @@ raises_value_error()
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 13th - Try and Review
+Unit 3rd - Lesson 13th - TRY AND REVIEW
 
 def applicant_selector(gpa, ps_score, ec_count):
   if (gpa>=3.0) and (ps_score>=90) and (ec_count>=3):
@@ -787,7 +787,7 @@ def applicant_selector(gpa, ps_score, ec_count):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Unit 3rd - Lesson 14th - Try and Except Statements 
+Unit 3rd - Lesson 14th - TRY AND EXCEPT STATEMENTS 
 
 def ground_shipping_cost(weight):
 	if (weight<=2):
@@ -974,8 +974,8 @@ print(same_name("Tina", "Amber"))
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<<<<<<< HEAD
-Unit 4th - Lesson 1st - What is a list? 
+
+Unit 4th - Lesson 1st - WHAT IS A LIST? 
 
 heights = [61, 70, 67, 64, 65]
 
